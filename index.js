@@ -45,6 +45,7 @@ switch (event){
    // const content = issue.comment.body;
    // var activityId   = pullRequest.title.split('[').pop().split(']')[0]; // returns ActivityId
    // artia.createComment(organizationId, accountId, activityId, creatorEmail, creatorPassword, content);
+   // break;
   }
 
 } catch (error) {
