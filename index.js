@@ -40,11 +40,11 @@ switch (event){
     artia.createActivity(organizationId, accountId, folderId, title, description, categoryText, estimatedEffort, creatorEmail, creatorPassword);
   break;
 
-  case 'issue_comment':
-    const issue             = objPayload.issue;
-    const content = issue.comment.body;
-    var activityId   = pullRequest.title.split('[').pop().split(']')[0]; // returns ActivityId
-    artia.createComment(organizationId, accountId, activityId, creatorEmail, creatorPassword, content);
+  //case 'issue_comment':
+  //  const issue             = objPayload.issue;
+   // const content = issue.comment.body;
+   // var activityId   = pullRequest.title.split('[').pop().split(']')[0]; // returns ActivityId
+   // artia.createComment(organizationId, accountId, activityId, creatorEmail, creatorPassword, content);
   }
 
 } catch (error) {
