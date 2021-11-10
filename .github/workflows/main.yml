@@ -20,10 +20,10 @@ jobs:
         id: Comment
         uses: donPain/action_temp@v2.5
         with: 
-          organizationId: 111402
-          accountId: 3757321
-          folderId: 3764173
-          creatorEmail: 'nerdplis@gmail.com'
+          organizationId: 111401
+          accountId: 3757280
+          folderId: 3764183
+          creatorEmail: 'penedoleite@gmail.com'
           creatorPassword: ${{ secrets.ARTIA_PASSWORD }}
       
 
